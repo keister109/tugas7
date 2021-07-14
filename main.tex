@@ -1,4 +1,8 @@
 \documentclass[conference]{IEEEtran}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\graphicspath{{./gambar/}}
 
 \title{Analisis kekuatan}
 
@@ -26,7 +30,18 @@ Email: }}
 
 \section{Scenario}
 
+\begin{figure}[htbp]
+    \input{gambar/topologi.pdf_tex}
+\end{figure}
+
 \section{Hasil dan Pembahasan}
+
+\begin{equation}
+    Rerata RSSI = \frac{Total Jumlah Nilai RSSI}{Jumlah Koordinat receiver}
+    \label{rerata_rssi}
+\end{equation}
+
+berdasarkan persamaan~\ref{rerata_rssi}
 
 \section{Kesimpulan}
 
