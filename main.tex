@@ -30,13 +30,13 @@ informasi dalam melakukan aktivitasnya
 \end{abstract}
 
 \begin{IEEEkeywords}
-Access point, InSSIDer, SSID, Wi-Fi.
+Access Point, InSSIDer, SSID, Wi-Fi.
 \end{IEEEkeywords}
 
 \section{Introduction}
 Teknologi Wifi atau yang dikenal dengan wireless LAN(WLAN) telah banyak diimplemantasikan 
 oleh masyarakat baik didalam maupun diluar negeri.Selain untuk aplikasi privat,WLAN 
-juga banyak digunakan untuk aplikasipublic(hospot).
+juga banyak digunakan untuk aplikasi public(hospot).\
 
 \vspace{0.2cm}
 
@@ -47,64 +47,68 @@ lebih besar sehingga jaringan yang kita buat menjadi tidak
 efisien. Untuk itu diperlukan suatu software yang dapat digunakan
 untuk mencari informasi jaringan WLAN pada suatu
 area lebih spesifik dari scan biasa. Salah satu software yang
-dapat digunakan adalah inSSIDer~\cite{Metageek}.
+dapat digunakan adalah inSSIDer.\
 
-Kemajuan teknologi informasi pada saat ini terus berkembang seiring dengan kebutuhan manusia yang menginginkan kemudahan, kecepatan, dan keakuratan dalam memperoleh informasi. 
-Oleh karena itu kemajuan teknologi informasi khususnya dibidang teknologi jaringan nirkabel atau sering kita kenal dengan Wireless.
+\vspace{0.2cm}
+
+InSSIDer merupakan software Wi-Fi scanner yang dapat
+mengidentifikasi SSID, RSSI (Received Signal Strength Indicator),
+security, dan pengaturan yang ada pada AP. Software
+ini dikembangkan oleh MetaGeek, LLC dan lain lain.
+
+
+Kemajuan Teknologi Informasi pada saat ini juga dapat juga dapat
+
 
 \section{Related Work}
-Pada Pembahasan ini, akan ditampilkan hasil analisis kekuatan sinyal Wi-Fi pada suatu perubhan dengan Menggunakan
-software inSSIDer. kita sebagai administrator jaringan yang akan melakukan instalasi jaringan WLAN(hospot atau Wifi)
-baru pada suatu wilayah , tentunya sebelum melakukan instalasi dan perancangan jaringan maka perlu
-dilakukan survey terhadap wilayah yang akan menjadi sasaran pemasangan jaringan tersebut
 
-\subsection{Jenis-jenis Jaringan}
-1.Wireless Personal Area Network (WPAN)
-WPAN (Wireless Personal Area Network) adalah sebuah bentuk komunikasi wireless yang terbatas hanya pada jarak pendek dan umumnya hanya terbatas untuk dua buah perangkat elektronik.
-\vspace{5pt}
-
-2.Wireless Wide Area Network (WWAN)
-WWAN adalah sebuah bentuk komunikasi nirkabel yang memiliki area sangat luas, antara lain untuk penggunaan selular seperti 2G, 3G, 4G, dan lain sebagainya
-\vspace{5pt}
-
-3.Wireless Local Area Network (WLAN)
-WLAN (Wireless Local Area Network) adalah sebuah bentuk komunikasi nirkabel yang memiliki area terbatas seperti dalam suatu ruangan ataupun sebuah gedung. WLAN memiliki standar komunikasi yang diatur oleh sebuah lembaga. Standar komunikasi data yang digunakan dalam WLAN umumnya adalah keluarga Institute of Electrical and Electronics Engineers (IEEE) 802.11.
-\begin{itemize}
-    \item  IEEE 802.11a bekerja pada frekuensi 5GHz dan mempunyai kecepatan maksimum 54 Mbps.
-    \item IEEE 802.11b bekerja pada frekuensi 2,4GHz dan mempunyai kecepatan sampai dengan 11Mbps.
-    \item IEEE 802.11g bekerja pada frekuensi yang sama dengan IEEE 802.11b yaitu 2,4GHz, namun memiliki kecepatan maksimal yang lebih besar, yaitu 54Mbps.
-    \item   IEEE 802.11n yang bekerja pada dua frekuensi yaitu 2,4 dan 5GHz dengan kecepatan maksimum adalah 100 sampai dengan 210 Mbps
-\end{itemize}
-\vspace{5pt}
-
-4.Wireless MAN (WMAN)
-\vspace{1pt}
-
-MAN atau Metropolitan Area Network mencakup area yang lebih besar daripada LAN dan area yang lebih kecil dibandingkan dengan WAN.
 \section{Scenario}
-
-
 
 \begin{figure}[htbp]
     \input{gambar/topologi.pdf_tex}
 \end{figure}
 
 \section{Hasil dan Pembahasan}
-\subsection{Perhitungan Kecepatan Internet}
-kecepatan akses internet adalah kecepatan transfer data pada saat melakukan akses melalui jalur internet. Kecepatan transfer data adalah jumlah data dalam bit yang melewati suatu media tertentu dalam satu detik.
-Jadi kalau ditulis dengan rumus, Kecepatan Internet (transfer data) dapat dihitung dengan rumus:
+\vspace{0.2cm}
+
+Pada tugas kali ini akan dilakukan pengambilan data.
+\begin{enumerate}
+    \item Pengambilan data dengan jarak 15 meter dari rumah
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.4\textwidth]{8.png}
+        \caption{Tampilan inSSIDer dalam Rumah}
+    \end{figure}
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.4\textwidth]{9.png}
+        \caption{Tampilan inSSIDer dalam rumah}
+    \end{figure}
+
+\vspace{0.2cm}
+
+Dari AP yang sinyalnya diterima dan tekdeteksi pada inSSIDer terlihat bahwa AP dengan SSID "Ratu tega nainggolan" memiliki 
+RSSI (Received Signal Strenght Indicator) yaitu -30 dBm. Seting kanal yang digunakan
+adalah kanal 1 dan bekerja pada frekuensi 2,4 GHz. Menggunakan model WPA-2 personal
+security dan memiliki channel 4.
+\end{enumerate}
+
+
+
+
+
 \begin{equation}
-    Kecepatan = \frac{Jumlah File Data}{Waktu}
+    Rerata RSSI = \frac{Total Jumlah Nilai RSSI}{Jumlah Koordinat receiver}
     \label{rerata_rssi}
 \end{equation}
 
-berdasarkan persamaan~\ref{rerata_rssi} kita dapat mengukur dan menghitung 
-kecepatan internet secara manual atau Menggunakan rumus 
-
+berdasarkan persamaan~\ref{rerata_rssi}
 
 \section{Kesimpulan}
 
-\bibliographystyle{IEEEtran}
+\bibliographystyle{IEEtran}
 \bibliography{referensi.bib}
 
 \end{document}
