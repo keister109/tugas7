@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.16)  28 JUL 2021 10:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.22)  28 JUL 2021 11:09
 entering extended mode
-**c:/Users/useur/OneDrive/Documents/GitHub/tugas7/main.tex
-(c:/Users/useur/OneDrive/Documents/GitHub/tugas7/main.tex
+**c:/Users/ASUS/Documents/GitHub/tugas7/main.tex
+(c:/Users/ASUS/Documents/GitHub/tugas7/main.tex
 LaTeX2e <2021-06-01>
-L3 programming layer <2021-06-01> (C:\Users\useur\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
+L3 programming layer <2021-06-01> (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -15,7 +15,7 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmpcountC=\count184
 \@IEEEtrantmptoksA=\toks16
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 503.
-(C:\Users\useur\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -99,39 +99,39 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEPARstartletwidth=\dimen161
 \c@IEEEbiography=\count196
 \@IEEEtranrubishbin=\box51
-) (C:\Users\useur\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\useur\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-) (C:\Users\useur\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\useur\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (C:\Users\useur\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (C:\Users\useur\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen162
 \Gin@req@width=\dimen163
-) (C:\Users\useur\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2021/04/20 v2.17j AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\useur\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
- (C:\Users\useur\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen164
-)) (C:\Users\useur\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen165
-) (C:\Users\useur\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count197
@@ -171,5 +171,173 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
-) (C:\Users\useur\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-0
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count275
+\l__pdf_internal_box=\box54
+) (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+
+-- Lines per column: 56 (exact).
+(C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count276
+\scratchdimen=\dimen173
+\scratchbox=\box55
+\nofMPsegments=\count277
+\nofMParguments=\count278
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count279
+\MPscratchDim=\dimen174
+\MPnumerator=\count280
+\makeMPintoPDFobject=\count281
+\everyMPtoPDFconversion=\toks24
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 18.
+LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 18.
+ (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <11> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
+
+Underfull \hbox (badness 4505) in paragraph at lines 20--30
+[]\OT1/ptm/b/it/9 Abstract\OT1/ptm/b/n/9 ---Kemajuan teknologi in-for-masi pada saat ini
+ []
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 37--40
+[]\OT1/ptm/m/n/10 Teknologi Wifi atau yang dike-nal den-gan wire-less
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--40
+\OT1/ptm/m/n/10 LAN(WLAN) telah banyak di-im-ple-man-tasikan oleh
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 37--40
+\OT1/ptm/m/n/10 masyarakat baik di-dalam maupun diluar negeri.Selain
+ []
+
+<./gambar//8.png, id=1, 1026.83624pt x 544.28343pt>
+File: ./gambar//8.png Graphic file (type png)
+<use ./gambar//8.png>
+Package pdftex.def Info: ./gambar//8.png  used on input line 82.
+(pdftex.def)             Requested size: 206.39685pt x 109.4029pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--86
+[]\OT1/ptm/m/n/10 Pengambilan data den-gan jarak 15 me-ter dari
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--86
+\OT1/ptm/m/n/10 rumah/AccessPoint yang sinyal-nya di-ter-ima dan
+ []
+
+
+Underfull \hbox (badness 2680) in paragraph at lines 74--86
+\OT1/ptm/m/n/10 Sig-nal Strenght In-di-ca-tor) yaitu -30 dBm. Set-ing
+ []
+
+<./gambar//9.png, id=3, 980.16188pt x 517.935pt>
+File: ./gambar//9.png Graphic file (type png)
+<use ./gambar//9.png>
+Package pdftex.def Info: ./gambar//9.png  used on input line 89.
+(pdftex.def)             Requested size: 206.39685pt x 109.06197pt.
+<./gambar//10.png, id=4, 980.16188pt x 510.40688pt>
+File: ./gambar//10.png Graphic file (type png)
+<use ./gambar//10.png>
+Package pdftex.def Info: ./gambar//10.png  used on input line 100.
+(pdftex.def)             Requested size: 206.39685pt x 107.47676pt.
+<./gambar//11.png, id=5, 1023.825pt x 534.49687pt>
+File: ./gambar//11.png Graphic file (type png)
+<use ./gambar//11.png>
+Package pdftex.def Info: ./gambar//11.png  used on input line 106.
+(pdftex.def)             Requested size: 206.39685pt x 107.74567pt.
+[1{C:/Users/ASUS/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+
+
+ <./gambar//8.png> <./gambar//9.png> <./gambar//10.png>]
+<./gambar//12.png, id=19, 982.42032pt x 517.935pt>
+File: ./gambar//12.png Graphic file (type png)
+<use ./gambar//12.png>
+Package pdftex.def Info: ./gambar//12.png  used on input line 124.
+(pdftex.def)             Requested size: 206.39685pt x 108.80907pt.
+<./gambar//13.png, id=20, 1027.58907pt x 534.49687pt>
+File: ./gambar//13.png Graphic file (type png)
+<use ./gambar//13.png>
+Package pdftex.def Info: ./gambar//13.png  used on input line 131.
+(pdftex.def)             Requested size: 206.39685pt x 107.3542pt.
+
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+[2 <./gambar//11.png> <./gambar//12.png> <./gambar//13.png>] (main.aux) ) 
+Here is how much of TeX's memory you used:
+ 3289 strings out of 478864
+ 54431 string characters out of 2849134
+ 364738 words of memory out of 3000000
+ 21179 multiletter control sequences out of 15000+600000
+ 437625 words of font info for 92 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 61i,14n,70p,259b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/ASUS/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (2 pages, 398325 bytes).
+PDF statistics:
+ 63 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+
