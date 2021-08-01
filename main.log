@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.22)  28 JUL 2021 11:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.22)  1 AUG 2021 22:36
 entering extended mode
 **c:/Users/ASUS/Documents/GitHub/tugas7/main.tex
 (c:/Users/ASUS/Documents/GitHub/tugas7/main.tex
@@ -267,37 +267,37 @@ Underfull \hbox (badness 7486) in paragraph at lines 37--40
 <./gambar//8.png, id=1, 1026.83624pt x 544.28343pt>
 File: ./gambar//8.png Graphic file (type png)
 <use ./gambar//8.png>
-Package pdftex.def Info: ./gambar//8.png  used on input line 82.
+Package pdftex.def Info: ./gambar//8.png  used on input line 79.
 (pdftex.def)             Requested size: 206.39685pt x 109.4029pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--86
+Underfull \hbox (badness 10000) in paragraph at lines 71--83
 []\OT1/ptm/m/n/10 Pengambilan data den-gan jarak 15 me-ter dari
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--86
+Underfull \hbox (badness 10000) in paragraph at lines 71--83
 \OT1/ptm/m/n/10 rumah/AccessPoint yang sinyal-nya di-ter-ima dan
  []
 
 
-Underfull \hbox (badness 2680) in paragraph at lines 74--86
+Underfull \hbox (badness 2680) in paragraph at lines 71--83
 \OT1/ptm/m/n/10 Sig-nal Strenght In-di-ca-tor) yaitu -30 dBm. Set-ing
  []
 
 <./gambar//9.png, id=3, 980.16188pt x 517.935pt>
 File: ./gambar//9.png Graphic file (type png)
 <use ./gambar//9.png>
-Package pdftex.def Info: ./gambar//9.png  used on input line 89.
+Package pdftex.def Info: ./gambar//9.png  used on input line 86.
 (pdftex.def)             Requested size: 206.39685pt x 109.06197pt.
 <./gambar//10.png, id=4, 980.16188pt x 510.40688pt>
 File: ./gambar//10.png Graphic file (type png)
 <use ./gambar//10.png>
-Package pdftex.def Info: ./gambar//10.png  used on input line 100.
+Package pdftex.def Info: ./gambar//10.png  used on input line 97.
 (pdftex.def)             Requested size: 206.39685pt x 107.47676pt.
 <./gambar//11.png, id=5, 1023.825pt x 534.49687pt>
 File: ./gambar//11.png Graphic file (type png)
 <use ./gambar//11.png>
-Package pdftex.def Info: ./gambar//11.png  used on input line 106.
+Package pdftex.def Info: ./gambar//11.png  used on input line 103.
 (pdftex.def)             Requested size: 206.39685pt x 107.74567pt.
 [1{C:/Users/ASUS/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
@@ -306,12 +306,12 @@ Package pdftex.def Info: ./gambar//11.png  used on input line 106.
 <./gambar//12.png, id=19, 982.42032pt x 517.935pt>
 File: ./gambar//12.png Graphic file (type png)
 <use ./gambar//12.png>
-Package pdftex.def Info: ./gambar//12.png  used on input line 124.
+Package pdftex.def Info: ./gambar//12.png  used on input line 121.
 (pdftex.def)             Requested size: 206.39685pt x 108.80907pt.
 <./gambar//13.png, id=20, 1027.58907pt x 534.49687pt>
 File: ./gambar//13.png Graphic file (type png)
 <use ./gambar//13.png>
-Package pdftex.def Info: ./gambar//13.png  used on input line 131.
+Package pdftex.def Info: ./gambar//13.png  used on input line 128.
 (pdftex.def)             Requested size: 206.39685pt x 107.3542pt.
 
 
