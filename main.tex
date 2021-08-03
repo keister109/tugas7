@@ -71,10 +71,12 @@ WLAN (Wireless Local Area Network) adalah sebuah bentuk komunikasi nirkabel yang
     \item IEEE 802.11g bekerja pada frekuensi yang sama dengan IEEE 802.11b yaitu 2,4GHz, namun memiliki kecepatan maksimal yang lebih besar, yaitu 54Mbps.
     \item   IEEE 802.11n yang bekerja pada dua frekuensi yaitu 2,4 dan 5GHz dengan kecepatan maksimum adalah 100 sampai dengan 210 Mbps
 \end{itemize}
+\vspace{0.1pt}
 
 \section{Related Work}
-Wireless Fidelity atau Wi-Fi memiliki pengertian yakni sekumpulan standar yang digunakan untuk jaringan lokal nirkabel (WLAN) yang didasari pada spesifikasi IEEE 802.11. Sekarang ini ada empat variasi dari 802.11, yakni: 802.11a, 802.11b, 802.11g dan 802.11n. Tabel 1 berikut ini merupakan spesifikasi dari 802.11.
+\vspace{0.1pt}
 
+Wireless Fidelity atau Wi-Fi memiliki pengertian yakni sekumpulan standar yang digunakan untuk jaringan lokal nirkabel (WLAN) yang didasari pada spesifikasi IEEE 802.11. Sekarang ini ada empat variasi dari 802.11, yakni: 802.11a, 802.11b, 802.11g dan 802.11n. Tabel 1 berikut ini merupakan spesifikasi dari 802.11.
 \begin{table}[htbp]
     \caption{spesifikasi dari 802.11}
     \begin{center}
@@ -95,8 +97,33 @@ Wireless Fidelity atau Wi-Fi memiliki pengertian yakni sekumpulan standar yang d
     \label{tab1}
     \end{center}
     \end{table}
-\section{Scenario}
+    
+    Spesifikasi 802.11b memiliki kecepatan transfer data maksimal adalah 11 Mbps. Peralatan yang menggunakan standar 802.11b juga bekerja pada frekuensi 2,4GHz. Salah satu kekurangan peralatan wireless yang bekerja pada frekuensi ini adalah terjadinya interferensi dengan cordless phone atau peralatan lain yang menggunakan gelombang radio pada frekuensi sama.
+    
+    Spesifikasi 802.11a menggunakan frekuensi 5 GHz dan untuk kecepatan transfer data maksimal sampai 54 Mbps. Gelombang radio yang dipancarkan oleh peralatan 802.11a relatif sukar menembus dinding atau penghalang lainnya. Jarak jangkau gelombang radio lebih pendek dibandingkan 802.11b. Secara teknis, 802.11b tidak kompatibel dengan 802.11a. Namun, saat ini cukup banyak pabrik hardware yang membuat peralatan yang mendukung kedua standar tersebut.
+    
+    Spesifikasi 802.11g bekerja pada frekuensi 2,4 GHz dengan kecepatan data maksimal 54 Mbps. Peralatan 802.11g kompatibel dengan 802.11b, sehingga dapat saling dipertukarkan. Misalkan sebuah komputer yang menggunakan kartu jaringan 802.11g dapat memanfaatkan access point 802.11b dan sebaliknya.
 
+    Spesifikasi 802.11n dikembangkan dengan menggabungkan teknologi 802.11b dan 802.11g. Teknologi yang diusung dikenal dengan istilah MIMO (Multiple Input
+    Multiple Output) merupakan teknologi Wi-Fi terbaru. MIMO dibuat berdasarkan spesifikasi Pre-802.11n. Kata ‘Pre’ menyatakan Prestandard versions of 802.11n. MIMO menawarkan peningkatan throughput, keunggulan reabilitas, dan peningkatan jumlah klien yang terkoneksi. Daya tembus MIMO terhadap penghalang lebih baik, selain itu jangkauannya lebih luas sehingga dapat menempatkan laptop atau klien Wi-Fi sesuka hati. Access point MIMO dapat menjangkau berbagai peralatan Wi-Fi yang ada disetiap sudut ruangan. Secara teknis MIMO lebih unggul dibandingkan dengan 802.11a/b/g. Access point MIMO dapat mengenali gelombang radio yang dipancarkan oleh adaptor Wi-Fi 802.11a/b/g. MIMO kompatibel dengan 802.11a/b/g. Peralatan Wi-Fi MIMO dapat menghasilkan kecepatan transfer data sebesar 108 Mbps.
+    ~\cite{b7}.
+
+    \section{Scenario}
+    Pada artikel ini akan dilakukan pengambilan data di Perumahan Laguna Raya . Hasil dari pengambilan data ini nantinya akan dibandingkan sehingga bisa terlihat di area mana yang banyak terjadi overlapping dan co-channel.
+    Pada pembahasan kali ini untuk scenario kami menggunakan :
+\subsection{Alat dan Bahan}
+\begin{itemize}
+    \item  Hardware (Laptop Fujitsu Lifebook AH566 014 dengan prosessor Intel Core i5-6200U 2,3 GHz dan RAM 4GB DDR4)
+    \item  Acces Point : Sebagai jalur akses yang menghubungkan pengguna ke pengguna lain dalam jaringan dan berfungsi sebagai titik interkoneksi WLAN dan jaringan kabel tetap.
+    \item Aplikasi InSSIDer : software yang akan digunakan untuk memindai jaringan dalam jangkauan antena Wi-Fi dilaptop, melacak kekuatan sinyal dari waktu ke waktu, dan menentukan pengaturan keamana.
+\end{itemize}
+\subsection{Teknik Pengambilan Data}
+\begin{itemize}
+    \item  Menginstal software inSSIDer di Laptop.
+    \item Menentukan tempat/sasaran yang akan dianalisa.
+    \item Pengambilan data pada setiap tempat yang sudah ditentukan
+    \item Pengolahan dan analisa data yang didapat.
+\end{itemize}
 \vspace{2cm}
 
 \section{Hasil dan Pembahasan}
@@ -104,45 +131,47 @@ Wireless Fidelity atau Wi-Fi memiliki pengertian yakni sekumpulan standar yang d
 
 Pada tugas kali ini akan dilakukan pengambilan data
 \begin{itemize}
-\item Pengambilan data dengan jarak 15 meter dari rumah/AccessPoint 
+\item Pengambilan data dengan jarak 15 meter dari rumah/AccessPoint .
 yang sinyalnya diterima dan tekdeteksi pada inSSIDer terlihat bahwa AP dengan SSID 
 "Ratu tega nainggolan" memiliki RSSI (Received Signal Strenght Indicator) yaitu -30 dBm. 
 Seting kanal yang digunakan adalah kanal 1 dan bekerja pada frekuensi 2,4 GHz. 
 Menggunakan model WPA-2 personal security, 3 client dan memiliki channel 4. [~\ref{tampilan dalam rumah_1},~\ref{tampilan dalam rumah_2}].
 \vspace{0.2cm}
-\begin{figure}
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.4\textwidth]{8.png}
     \caption{Tampilan inSSIDer dalam Rumah}
     \label{tampilan dalam rumah_1}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=0.4\textwidth]{9.png}
     \caption{Tampilan inSSIDer dalam rumah}
     \label{tampilan dalam rumah_2}
 \end{figure}
 
-\vspace{4 cm}
+
 
     \item Pengambilan Data dengan Jarak 15 M dari Rumah
 
-    \begin{figure}
+    \begin{figure}[htbp]
         \centering
         \includegraphics[width=0.4\textwidth]{10.png}
         \caption{Tampilan inSSDer dengan jarak 15 M dari Rumah}
+        \label{Tampilan inSSDer dengan jarak 15 M_1}
     \end{figure}
 
-    \begin{figure}
+    \begin{figure}[htbp]
         \centering
         \includegraphics[width=0.4\textwidth]{11.png}
         \caption{Tampilan inSSIDer dengan jarak 15 M dari rumah}
+        \label{Tampilan inSSDer dengan jarak 15 M_2}
     \end{figure}
 
 \vspace{0.2cm}
 
-Pada gambar diatas terlihat bahwa sinyal wireless dengan
+Pada gambar ~\ref{Tampilan inSSDer dengan jarak 15 M_1} dan ~\ref{Tampilan inSSDer dengan jarak 15 M_2}  terlihat bahwa sinyal wireless dengan
 SSID ‘Ratu Tega Nainggolan’ memiliki RSSI (Received
 Signal Strength Indicator) yakni -70 dBm. Berada
 pada kanal 1 dan bekerja pada frekuensi 2,4 GHz. Menggunakan
@@ -150,16 +179,16 @@ model WPA-2 personal security dan memiliki
 channel 4
 \vspace{0.2cm}  
 
-    \item Pengambilan Data dengan Adanya Penghalang / Pembatas (Dinding)
+    \item Pengambilan Data dengan Adanya Penghalang / Pembatas (Dinding)~\cite{b6}
 
-    \begin{figure}
+    \begin{figure}[htbp]
         \centering
         \includegraphics[width=0.4\textwidth]{12.png}
         \caption{Tampilan inSSDer dengan Adanya Pembatas}
         \label{Tampilan dengan Pembatas_1}
     \end{figure}
 
-    \begin{figure}
+    \begin{figure}[htbp]
         \centering
         \includegraphics[width=0.4\textwidth]{13.png}
         \caption{Tampilan inSSIDer dengan Adanya pembatas}
@@ -199,15 +228,6 @@ tidak ada SSID yang masuk kategori tersebut.Frekuensi
 memiliki max rate yang sama dengan 802.11g
 namun dengan pita yang lebih lebar.
 
-\subsection{Analisis Kekuatan Sinya Dengan adanya Penghalang}
-berikut ini adalah hasil dari pengujian kekuatan sinya jika adanya Penghalang~. \cite{b6}
-
-\begin{equation}
-    Rerata RSSI = \frac{Total Jumlah Nilai RSSI}{Jumlah Koordinat receiver}
-    \label{rerata_rssi}
-\end{equation}
-
-berdasarkan persamaan~\ref{rerata_rssi}
 
 \section{Kesimpulan}
 Pengambilan data untuk mengetahui kekuatan sinyal Wi-
@@ -228,7 +248,7 @@ namun dengan pita yang lebih lebar.
     \bibitem{b4} Kapgate, Y., Vatti, R., Jadhav, S., 2017, WiFi Tools and Signal Strength Analysis, GRD Journals Global Research and Development Journal for Engineering , Vol.2 Issue 10.
     \bibitem{b5} https://www.metageek.com/
     \bibitem{b6} Imansyah2019,Analisis Simulasi Pengaruh Uji Kuat Sinyal Wifi Dari Bahan-Bahan Obstacle,https://scholar.google.co.id/
+\bibitem{b7} Rante2018,Analisis Kekuatan Sinyal Wi-Fi Menggunakan Inssider
 \end{thebibliography}
-
 
 \end{document}
